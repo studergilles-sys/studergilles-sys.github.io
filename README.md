@@ -1,10 +1,17 @@
-# studergilles-sys.github.io
-<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>FORGE/37 — Programme 4 semaines</title>
+
+<!-- Mode "app" sur écran d'accueil iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="FORGE/37">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#13161B">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAFWklEQVR4nO3dPZIbNxRFYYxLO5BKgRQo9FYcKNU2vBhtQ6kDb0WhEkVehANUobqG88juJoB3L/p8mUpjEkSffs0/jV/ef/xcgLf8kb0A6CIOhIgDIeJAiDgQIg6EiAMh4kCIOBAiDoSIAyHiQIg4ECIOhIgDIeJAiDgQIg6EiAOhd9kLSPbft0/3f+DDj99zViLo5YJfMH4YRORqoVwojtNN3LpIJevH0bGJW2tXsvgT0qFlTLj9XMtOjsmHbckRsubkmH9CLzlCVpsc6QdppRGy1ORIL0NkDb2sE4fOUdFZyZMWiUPteKit55wV4tA8EpqrOmTgE9Kv3//d/vGfv/8acS/ix8D6+emQOF5lsdU3EfEyKt8++n8qe6eM+reDRshpdw6eRXzjdJ4c98touvTx5JE7dELPvC8dPePYWUb1ZB/PHK3ThyrlThNd68s+Tx6h+p9f51rT7aXsobFx4ue3zh2eXufuudtxTMrvfY4Tu/zhx+++U/3cDdr14RfHUeMu9o5PIw5ZPw6cZhbH0ck8+uQ+evteVxbLl7I7t3ja2FdbTy+WL2W9XlLaNdEYv0PavFnJ5ENyuwbfJpr+H7w97GPcZyvbI5QYxwJZVN6fymIo++9zYJzVvn2Ojsze58BMxIEQcSBEHAgRB0LEgZDlZytdHPpoZpk3PQ+50Psc/Nqno9aPg1/7dNqycfCbfZ63WhzpX/JYqZJ14kjPYmuNRFaIQyqLLfdE7N/nkC2jaK9tD+PJYbT1piPEdXIYlVHcVtv4TQ7Tja68RojZ5LAuo7it3ykOr52NGD0KmziM9vQhl8di8JzjzFZ++fPBD/z6eW4xfYk/BVGP40AZD4OIpIai3Id0HHvLOJ3FVl4isn2Yf9mnSxbbm9K43IjQnRwPxkbHLG5NT0RzeIi+WsksY8Lt39B8/aI4Oe7t1OTDNneEqM0PuckhVMb0e1SbH3JxhOaXkXu/ArTiUDt15pPaAaE4tC4oefeu04dQHCGFwa6whulU4tA5XRSI7IZEHLoXlK3rXVwk4oCm/DgUThFN6TuTH8c9OteUSm09gyXHkX5yiMvdH+3JgVTEgVBmHFxT9kjcJSYHQsSBUFocu6al2jc6k9aTdWVhciBEHAjlxHFgTupcWVJXknJlYXIg5BCHwvBQWMN0DnGU7GNzyTKKTRzIkBDHyedWWaevzNiY/5zUanLMP04yZaRw+1f29WhN+NLNtbOorCZHM/rIUUYpxW9yNINGCFls2MZRdUyELG6Yx1E9mQhZBJaIo9oeY5PfJihuoTi2OPY9eL5awRTEgRBxIEQcCBEHQsSBUEIcar9t08X8fWNyIEQcCBEHQsSBUE4cPCc9KmXHmBwIEQdCaXFwZdkva6+YHAgRB0KZcXBl2SNxl5gcCBEHQslxcGW5L3d/mBwI5cfB8Iik70x+HJAlEUf6KSJIYU8k4igae6FDZDdU4oAgoThETpd0OvsgFEdR2pcsUjugFQekyMUhdepMpvbY5eIoens0h+CjVoyjSO7UUJqPVzSOorpfI8g+Ut04kE46DtlTqiPlxygdR9Heu+eJP7qX9x8/Z69hl8X+D8XiWVTqk6Ox2M2dXB6LTRzFZ0/vM3oUTnEUq519k9f6bZ5zvGL3FMQri8pscjRee+212sZ1cjTiI8Q0i8p1cjTKu6+8tj3sJ0cjNULcs6jWiaNKT2SNLKrV4mgmV7JSE82ycTRDK1myiWb9OJqOlazdRHOhOF451MpFanjlunHgIfv3OTAOcSBEHAgRB0LEgRBxIEQcCBEHQsSBEHEgRBwIEQdCxIEQcSBEHAgRB0LEgRBxIPQ/AIGOc2ghPTkAAAAASUVORK5CYII=">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAFWklEQVR4nO3dPZIbNxRFYYxLO5BKgRQo9FYcKNU2vBhtQ6kDb0WhEkVehANUobqG88juJoB3L/p8mUpjEkSffs0/jV/ef/xcgLf8kb0A6CIOhIgDIeJAiDgQIg6EiAMh4kCIOBAiDoSIAyHiQIg4ECIOhIgDIeJAiDgQIg6EiAOhd9kLSPbft0/3f+DDj99zViLo5YJfMH4YRORqoVwojtNN3LpIJevH0bGJW2tXsvgT0qFlTLj9XMtOjsmHbckRsubkmH9CLzlCVpsc6QdppRGy1ORIL0NkDb2sE4fOUdFZyZMWiUPteKit55wV4tA8EpqrOmTgE9Kv3//d/vGfv/8acS/ix8D6+emQOF5lsdU3EfEyKt8++n8qe6eM+reDRshpdw6eRXzjdJ4c98touvTx5JE7dELPvC8dPePYWUb1ZB/PHK3ThyrlThNd68s+Tx6h+p9f51rT7aXsobFx4ue3zh2eXufuudtxTMrvfY4Tu/zhx+++U/3cDdr14RfHUeMu9o5PIw5ZPw6cZhbH0ck8+uQ+evteVxbLl7I7t3ja2FdbTy+WL2W9XlLaNdEYv0PavFnJ5ENyuwbfJpr+H7w97GPcZyvbI5QYxwJZVN6fymIo++9zYJzVvn2Ojsze58BMxIEQcSBEHAgRB0LEgZDlZytdHPpoZpk3PQ+50Psc/Nqno9aPg1/7dNqycfCbfZ63WhzpX/JYqZJ14kjPYmuNRFaIQyqLLfdE7N/nkC2jaK9tD+PJYbT1piPEdXIYlVHcVtv4TQ7Tja68RojZ5LAuo7it3ykOr52NGD0KmziM9vQhl8di8JzjzFZ++fPBD/z6eW4xfYk/BVGP40AZD4OIpIai3Id0HHvLOJ3FVl4isn2Yf9mnSxbbm9K43IjQnRwPxkbHLG5NT0RzeIi+WsksY8Lt39B8/aI4Oe7t1OTDNneEqM0PuckhVMb0e1SbH3JxhOaXkXu/ArTiUDt15pPaAaE4tC4oefeu04dQHCGFwa6whulU4tA5XRSI7IZEHLoXlK3rXVwk4oCm/DgUThFN6TuTH8c9OteUSm09gyXHkX5yiMvdH+3JgVTEgVBmHFxT9kjcJSYHQsSBUFocu6al2jc6k9aTdWVhciBEHAjlxHFgTupcWVJXknJlYXIg5BCHwvBQWMN0DnGU7GNzyTKKTRzIkBDHyedWWaevzNiY/5zUanLMP04yZaRw+1f29WhN+NLNtbOorCZHM/rIUUYpxW9yNINGCFls2MZRdUyELG6Yx1E9mQhZBJaIo9oeY5PfJihuoTi2OPY9eL5awRTEgRBxIEQcCBEHQsSBUEIcar9t08X8fWNyIEQcCBEHQsSBUE4cPCc9KmXHmBwIEQdCaXFwZdkva6+YHAgRB0KZcXBl2SNxl5gcCBEHQslxcGW5L3d/mBwI5cfB8Iik70x+HJAlEUf6KSJIYU8k4igae6FDZDdU4oAgoThETpd0OvsgFEdR2pcsUjugFQekyMUhdepMpvbY5eIoens0h+CjVoyjSO7UUJqPVzSOorpfI8g+Ut04kE46DtlTqiPlxygdR9Heu+eJP7qX9x8/Z69hl8X+D8XiWVTqk6Ox2M2dXB6LTRzFZ0/vM3oUTnEUq519k9f6bZ5zvGL3FMQri8pscjRee+212sZ1cjTiI8Q0i8p1cjTKu6+8tj3sJ0cjNULcs6jWiaNKT2SNLKrV4mgmV7JSE82ycTRDK1myiWb9OJqOlazdRHOhOF451MpFanjlunHgIfv3OTAOcSBEHAgRB0LEgRBxIEQcCBEHQsSBEHEgRBwIEQdCxIEQcSBEHAgRB0LEgRBxIPQ/AIGOc2ghPTkAAAAASUVORK5CYII=">
 <style>
   :root{
     --bg:#13161B;
@@ -51,7 +58,7 @@
   header.topbar{
     position:sticky; top:0; z-index:20;
     background:linear-gradient(180deg,var(--bg) 70%, transparent);
-    padding:18px 18px 8px;
+    padding:calc(18px + env(safe-area-inset-top)) 18px 8px;
     display:flex; align-items:center; justify-content:space-between;
   }
   .brand{
@@ -81,7 +88,7 @@
   /* ---------- MAIN ---------- */
   main{
     flex:1;
-    padding:4px 18px calc(var(--nav-h) + 28px);
+    padding:4px 18px calc(var(--nav-h) + env(safe-area-inset-bottom) + 28px);
   }
   .view{ display:none; animation:fade .25s ease; }
   .view.active{ display:block; }
@@ -262,7 +269,8 @@
 
   /* ---------- NAV ---------- */
   nav.tabbar{
-    position:fixed; bottom:0; left:0; right:0; height:var(--nav-h);
+    position:fixed; bottom:0; left:0; right:0; height:calc(var(--nav-h) + env(safe-area-inset-bottom));
+    padding-bottom:env(safe-area-inset-bottom);
     background:rgba(25,29,36,0.92); backdrop-filter:blur(10px);
     border-top:1px solid var(--line);
     display:flex; justify-content:center; z-index:30;
@@ -285,7 +293,7 @@
     padding:12px; font-size:11px; overflow-x:auto; color:var(--text-dim); line-height:1.5;
   }
   .toast{
-    position:fixed; bottom:calc(var(--nav-h) + 14px); left:50%; transform:translateX(-50%) translateY(20px);
+    position:fixed; bottom:calc(var(--nav-h) + env(safe-area-inset-bottom) + 14px); left:50%; transform:translateX(-50%) translateY(20px);
     background:var(--surface-2); border:1px solid var(--accent); color:var(--text);
     padding:10px 18px; border-radius:999px; font-size:13px; opacity:0; transition:all .3s; pointer-events:none; z-index:50;
     white-space:nowrap;
